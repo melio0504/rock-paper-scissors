@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fcf5f5;
+    margin: 0;
+}
+
+*,
+*::before
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    border: none;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    outline: none;
+  }
+
+.head {
+    padding: 25px;
+    text-align: center;
+    background: #0a0b00;
+    color: #fcf5f5;
+    font-size: 1rem;
+  }
+
+main {
+    margin-top: 40px;
+    text-align: center;
+}
+  
+.scoreboard {
+    margin-bottom: 15px;
+}
+  
+.score {
+    font-size: 32px;
+}
+  
+.description {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+  
+.visualContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 400px;
+    padding: 10px;
+    margin: 50px auto;
+}
+  
+.scoreBox {
+    width: 170px;
+}
+  
+.score {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+  
+.choices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+  
+.btn {
+    border-radius: 10px;
+    background-color: #6b9e7b;
+}
+  
+.btn-square {
+    width: 160px;
+    height: 160px;
+}
+  
+.btn:hover {
+    background-color: #568866;
+}
+  
+.btn:active {
+    background-color: #5cc37c;
+}
+  
+.visual {
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+footer {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: #0a0b00;
+    color: #fcf5f5;
+    text-align: center;
+ }
+
+a, .github-logo {
+    width: 30px;
+    height: 30px;
+}
+
+.modal {
+    position: fixed;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    padding: 4rem;
+    border-radius: 10px;
+    background-color: #222831;
+    text-align: center;
+    font-size: 2.5rem;
+    user-select: none;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 100ms ease-in-out;
+}
+  
+.modal.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+  
+.modal-title {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+  
+.btn-restart {
+    padding: 10px 20px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+  
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+  
+.overlay.active {
+    display: block;
+}
+
+@media (max-width: 550px) {
+    .title {
+      font-size: 1.2rem;
+    }
+  
+    .score-info {
+      font-size: 1.5rem;
+    }
+  
+    .buttons {
+      gap: 10px;
+    }
+  
+    .btn-square {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .player {
+      font-size: 3.5rem;
+    }
+  
+    .modal {
+      width: 95%;
+    }
+  }
+  
