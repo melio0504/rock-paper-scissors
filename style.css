@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fcf5f5;
+    margin: 0;
+}
+
+*,
+*::before
+*::after {
+    box-sizing: border-box;
+}
+
+.head {
+    padding: 25px;
+    text-align: center;
+    background: #0a0b00;
+    color: #fcf5f5;
+    font-size: 1rem;
+  }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: #0a0b00;
+    color: #fcf5f5;
+    text-align: center;
+ }
