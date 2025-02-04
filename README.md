@@ -4,7 +4,7 @@
 
 ![Website Screenshot](assets/screenshot.png)
 
-The classic **Rock Paper Scissors** game that I love when I was a kid. This is my first serious project for the year 2025. For starter, I like to say for my future self that keeps doing what you love and enjoy the journay. Only compare yourself on your past self.
+The classic **Rock Paper Scissors** game that I love when I was a kid. This is my first serious project for the year 2025. For starter, I like to say for my future self that keeps doing what you love and enjoy the journey. Only compare yourself on your past self.
 
 ### Tech Stack
 
