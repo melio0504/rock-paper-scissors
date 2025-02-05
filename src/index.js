@@ -113,7 +113,7 @@ function updateScore() {
     scoreInfo.textContent = 'You lost!'
   }
 
-  playerScorePara.textContent = `Player: ${playerScore}`
+  playerScorePara.textContent = `You: ${playerScore}`
   computerScorePara.textContent = `Computer: ${computerScore}`
 }
 
@@ -161,7 +161,7 @@ function restartGame() {
   computerScore = 0
   scoreInfo.textContent = 'Choose wisely'
   scoreMessage.textContent = 'Best of 5'
-  playerScorePara.textContent = 'Player: 0'
+  playerScorePara.textContent = 'You: 0'
   computerScorePara.textContent = 'Computer: 0'
   playerSign.textContent = '❓'
   computerSign.textContent = '❓'
