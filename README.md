@@ -12,4 +12,4 @@ The classic **Rock Paper Scissors** game that I love when I was a kid. This is m
 - CSS
 - JavaScript
 
-To understand the modern technology, you have to start understanding the basic fundamentals. Actually, I enjoyed learning the plain CSS and JavaScript. I want to learn more about this technology.
+To understand the modern technology, you have to start by understanding the basic fundamentals. Actually, I enjoyed learning plain CSS and JavaScript. I want to learn more about these technologies.
