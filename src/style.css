@@ -2,6 +2,7 @@ body {
     font-family: "Play", serif;
     background-color: #fcf5f5;
     margin: 0;
+    overflow-x: hidden;
 }
 
 *,
@@ -27,7 +28,7 @@ button {
     background: #0a0b00;
     color: #fcf5f5;
     font-size: 1rem;
-  }
+}
 
 main {
     margin-top: 40px;
@@ -105,7 +106,8 @@ footer {
     gap: 0.8rem;
     bottom: 0;
     width: 100%;
-    padding: 0.5rem;
+    padding: 1rem;
+    margin-top: 2rem;
     background-color: #0a0b00;
     color: #fcf5f5;
     text-align: center;
@@ -186,7 +188,13 @@ a, .github-logo {
     }
   
     .modal {
-      width: 95%;
+      width: 60%;
     }
   }
-  
+
+@media only screen and (max-height: 750px) {
+    footer {
+        position: relative;
+        margin-top: 2.5rem;
+    }
+}
